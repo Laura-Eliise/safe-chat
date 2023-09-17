@@ -1,4 +1,4 @@
-# Secure Messenger
+# Safe Chat
 
 ### Description
 
