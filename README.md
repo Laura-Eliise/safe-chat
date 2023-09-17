@@ -12,10 +12,21 @@ The public chat functions like a regular chat. You can send, texts, images, vide
 
 The private chat is a temporary chat room intended for short conversations. The chat room has end-to-end encryption and exists only as long as either of the participants has not left the chat room. The chat room has restricted functionality - you can only send text messages and those messages can not be deleted or edited. When the chat room dies, a message will pop up, letting the other participant know that th chat is now over and they have to leave and re-enter to start a new conversation. Changes made in this chat are also real time.
 
+### How to test
+
+#### Flutter
+- To download Flutter follow [these instructions](https://docs.flutter.dev/get-started/install)
+
+#### Firebase
+- Visit [Firebase website](https://firebase.google.com/) and create a new project with authentication and cloud database enabled.
+- Follow [this guid](https://firebase.google.com/docs/flutter/setup?platform=ios) to linking your firebase project with flutter
+
+Once your project is set up, build your firebase app with ```flutter run``` and enjoy!
+
 ### Demo/Audit Videos
 
 Here's a video, demonstrating the app in action: [link](https://drive.google.com/drive/folders/11o43Es8-qvTmjYTVy2DPMmz4mKW0YO-c)
 
 ### Authors
 
-Laura-Eliise Marrandi and and Gunta Kļava
+Laura-Eliise Marrandi and Gunta Kļava
