@@ -1,0 +1,22 @@
+Collection "user", path "$email"
+    email:  String
+    name:   String
+    online: bool
+    key:    String
+
+Collection "friends", path: "$email"
+    friend:   Map<String, String>
+    outbound: Map<String, String>
+    inbound:  Map<String, String>
+
+Collection "chats", path: "$email"
+    $recipientEmail: List<Map<String, String>>
+
+Collection "private", path: "$privateRoomId"
+    "messages": List<Map<String, String>>
+
+
+NB! In the collection "chats", the messages are stored as a List of maps.
+That is because the List holds the messages in the order they were sent and 
+the maps hold the contents of the message. The maps hold only one key-value pair, 
+where the key is who sent the message and the value is the message itself. 
