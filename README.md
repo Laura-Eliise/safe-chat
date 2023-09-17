@@ -23,10 +23,6 @@ The private chat is a temporary chat room intended for short conversations. The 
 
 Once your project is set up, build your firebase app with ```flutter run``` and enjoy!
 
-### Demo/Audit Videos
-
-Here's a video, demonstrating the app in action: [link](https://drive.google.com/drive/folders/11o43Es8-qvTmjYTVy2DPMmz4mKW0YO-c)
-
 ### Authors
 
 Laura-Eliise Marrandi and Gunta Kļava
